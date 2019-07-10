@@ -1,0 +1,6 @@
+[submodule "levmar"]
+	path = modules/levmar
+	url = git@github.com:spetroce/levmar.git
+[submodule "mio"]
+	path = modules/mio
+	url = git@github.com:spetroce/mio.git

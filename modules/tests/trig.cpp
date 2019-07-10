@@ -100,9 +100,17 @@ void EqualAreaSineSquared() {
     x_data_vec[0] = p[0]; // Update starting boundary 'a'
     p[0] += step;
   }
+  // Print the results
   for (size_t i = 0; i < N; ++i) {
     printf("%.8f, %.8f, %.8f\n", bounds[i], bounds[i+1], DefIntSineSquared(bounds[i], bounds[i+1]));
   }
+  // Print a copy pastable percentage array for the steps
+  bounds[N+1] = M_PI; // Make last value a solid PI
+  printf("{");
+  for (size_t i = 0; i < N; ++i) {
+    printf("%.6f, ", bounds[i]/M_PI);
+  }
+  printf("%.6f}\n", bounds[N+1]/M_PI);
 }
 
 

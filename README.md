@@ -11,7 +11,7 @@ git clone git@github.com:spetroce/levmar_test.git
 cd levmar_test #ie. change to root repo directory
 git submodule update --init --recursive
 ```
-If you do not have a github account setup with an SSH key, which is likely the case for EE and ME team members, replace the URL with https://github.com/spetroce/levmar_test.git. So, the shorthand clone instruction is:
+If you do not have a github account setup with an SSH key, replace the URL with https://github.com/spetroce/levmar_test.git. So, the shorthand clone instruction is:
 ```bash
 git clone --recurse-submodules https://github.com/spetroce/levmar_test.git
 ```

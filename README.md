@@ -25,7 +25,7 @@ sudo apt-get install cmake build-essential git-lfs
 ```
 Fedora:
 ```bash
-sudo dnf install make automake cmake gcc gcc-c++ git git-lfs libtool
+sudo dnf install make automake cmake gcc gcc-c++ git git-lfs libtool lapack-devel
 ```
 
 # Build Instructions
